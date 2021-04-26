@@ -1,0 +1,90 @@
+body{
+    margin-left:25%;
+    margin-right:25%;
+    margin-top:2%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#page{
+    display:flex;
+    flex-direction:row;
+
+}
+
+#leftSide{
+    padding:1rem;
+}
+
+.subtitle{
+    color:#964B00;
+    font-size:1.1vw;
+    font-weight: 500;
+    letter-spacing:0.1em;
+}
+
+#position{
+    font-size:0.9vw;
+}
+
+.fa {
+    padding: 0.7vw;
+    width: 1.5vw;
+    font-size: 1.5vw;
+    text-align: center;
+    text-decoration: none;
+    margin: 7px 7px;
+    border-radius:100%;
+  }
+.fa:hover {
+      opacity: 0.7;
+  }
+.fa-facebook{
+    background: #3B5998;
+    color: white;
+}
+.fa-instagram {
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%); 
+    color: white;
+}
+.fa-whatsapp{
+    background: #4fce5d;
+    color: white;
+} 
+
+button{
+    padding: 12px 20px;
+    border:2.5px solid #964B00;
+    margin-bottom:2vw;
+    margin-top:8vw;
+}
+#letter{
+    color:black;
+    text-decoration:none;
+    font-size:0.9vw;
+    font-weight: normal;
+    letter-spacing:0.1em;
+}
+  
+img{
+    width:14vw;
+    padding-top:7px;
+    padding-bottom:7px;
+    border-top:3px solid burlywood;
+    border-bottom:3px solid burlywood;
+}
+
+
+#rightSide{
+    padding:1rem;
+}
+h1{
+    font-size: 1.8vw;
+    color:#964B00;
+    font-weight: lighter;
+    margin-top:0;
+
+}
+p{
+    font-size:1vw;
+}
