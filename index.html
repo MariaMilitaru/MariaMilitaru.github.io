@@ -6,73 +6,98 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About me</title>
+    <!--Font Awesome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="aboutMe.css">
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="cv_final.css">
 </head>
 
-<body>
-    <div id="page">
-        <div id="leftSide">
-            <img src="pozacv.jpg">
-            <p class="subtitle">MILITARU MARIA</p>
-            <p id="position">FRONT END DEVELOPER</p><br>
-            <p class="subtitle">VITALS</p>
-            <p>Cluj-Napoca, CLUJ</p>
-            <p> T : 0770684939 </p>
-            <p> E: mariaadmili@gmail.com</p><br>
 
-            <button><a id="letter" href="intentLetter.html">LETTER OF INTENT</a></button>
+<body class="container">
+    <div class="row mx-1 my-1">
+        <div class="col-lg-5 col-md-5 col-12" >
 
-            <div>
-                <a href="https://www.facebook.com/maria.milly.3/" class="fa fa-facebook"></a>
-                <a href="https://www.instagram.com/mariaamili/" class="fa fa-instagram"></a>
-                <a href="https://wa.me/40770684939" class="fa fa-whatsapp"></a>
+            <div class = "card">
+                <div class="card-body">
+                    <img class="img-fluid rounded-circle mx-auto d-block"src="pozacv.jpg" width=60%">
+                    <h5 class="subtitle" >MILITARU MARIA</h5>
+                    <h6 class=>ASPIRING FRONT END DEVELOPER</h6><hr>
+                </div>
+
+                <div class="card-body" >
+                    <h5 class="subtitle">VITALS</h5>
+                    <h6><i class="fa fa-globe" aria-hidden="true"></i> Cluj-Napoca, CLUJ</h6>
+                    <h6><i class="fa fa-phone"></i> 0770684939</h6> 
+                    <h6><i class="fa fa-envelope-o"></i> mariaadmili@gmail.com</span></h6>
+                    <br>
+                </div>  
+
+            </div>    
+        </div>
+
+    
+        <div class="col-lg-7 col-md-7 col-12">
+            <div class="card" >
+
+                <div class="card-body">
+                    <h1> ABOUT ME </h1>
+                    <p>I have always enjoyed bringing creative ideas to life and making things better .
+                       I am passionate about web development and I am really interested in creating
+                        visual appealing web pages and applications.
+                    </p>
+                    <p> When I finished University, I was not sure I wanted to work in this field, 
+                        but after I started learning HTML, CSS and Javascript by myself I knew this
+                        was what I really wanted to do.
+                    </p><br>
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                    <div class="card-body">
+                        <h1>  EDUCATION  </h1>
+                        <p><i class="fa fa-bookmark"></i><b>BACHELORS DEGREE (2017-2020)</b><br>
+                            "Babes-Bolyai University" Faculty of Mathematics and Computer Science
+                        </p>
+                    </div>
+
+                    <div class="card-body">
+                        <p><i class="fa fa-bookmark"></i><b>HIGH SCHOOL (2013-2017)</b>
+                            "Tiberiu Popoviciu" High school of Computer Science
+                        </p><br>
+                    </div>
+            </div>
+
+            <div class="card">
+                
+                <div class="card-body">
+                    <h1>SKILLS & ABILITIES</h1>
+                    <p>Created presentation websites with HTML and CSS<br>
+                        Basic knowledge of Figma, C++, Python and JavaScript<br>
+                        Basic editing skills in Adobe Photoshop and Lightroom
+                    </p><br>
+                </div>
+
+                <div class="card-body">
+                    <h1>EXPERIENCE</h1>
+                    <p><i class="fa fa-suitcase"></i><b>2020-ONGOING</b><br>
+                        PRIVATE TEACHER<br>
+                        I’m helping high school students prepare for math exams.
+                    </p>
+                    <p><i class="fa fa-suitcase"></i><b>2018-2020</b><br>
+                        BRAND AMBASADOR<br>
+                        I interacted with clients to advertise and increase sales of different brands.
+                    </p>
+                    <p><i class="fa fa-star"></i><b>2016-2018</b><br>
+                        VOLUNTEER<br>
+                        I volunteered in various projects as part of the Sisterhood.
+                    </p>
+                </div>
             </div>
 
         </div>
 
-        <div id="rightSide">
-            <h1> ABOUT ME </h1>
-            <p>I started learning programming in high school, then I continued studying in university.
-                I am very interested in creating visual appealing web pages and applications.</p>
-            <p>After graduation, I started learning HTML, CSS and JavaScript by myself and I am very excited to learn
-                new things.
-            </p><br>
-
-
-            <h1>EDUCATION</h1>
-            <p><b>BACHELORS DEGREE (2017-2020)</b>
-                "Babes-Bolyai University" Faculty of Mathematics and Computer Science
-            </p>
-            <p><b>HIGH SCHOOL (2013-2017)</b>
-                "Tiberiu Popoviciu" High school of Computer Science
-            </p><br>
-
-
-            <h1>SKILLS & ABILITIES</h1>
-            <p>Created presentation websites with HTML and CSS<br>
-                Basic knowledge of C++, Python and JavaScript<br>
-                Basic editing skills in Adobe Photoshop and Lightroom
-            </p><br>
-
-
-            <h1>EXPERIENCE</h1>
-            <p><b>2020-ONGOING</b><br>
-                PRIVATE TEACHER<br>
-                I’m helping high school students prepare for math exams.
-            </p>
-            <p><b>2018-2020</b>
-                BRAND AMBASADOR<br>
-                I interacted with clients to advertise and increase sales of different brands.
-            </p>
-            <p><b>2016-2018</b><br>
-                VOLUNTEER<br>
-                I volunteered in various projects as part of the Sisterhood.
-            </p>
-
-
-        </div>
     </div>
 </body>
-
-</html>
